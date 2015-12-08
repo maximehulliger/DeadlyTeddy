@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(AudioSource))]
 public class MoveBody : MonoBehaviour {
 	private const string groundTag = "Ground";
 
@@ -11,16 +12,21 @@ public class MoveBody : MonoBehaviour {
 	[Space(10)]
 	public IRope rope;
 	public Transform spineBase;
+	[Space(10)]
+	public AudioClip jumpSound;
+
 
 	private Rigidbody2D body;
 	private bool grounded = false; 		// true if touch the ground
 	private int groundContactCount = 0;	// nb of contact point with the ground
 	private float detachedTime;
 	private bool lastFixedd = true;
+	private AudioSource audio;
 
 	// Use this for initialization
 	void Start () {
 		body = GetComponent<Rigidbody2D>();
+		audio = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -37,8 +43,10 @@ public class MoveBody : MonoBehaviour {
 			transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.identity, Time.deltaTime * 5f);
 
 			// jumping
-			if (ScreenInput.jumpDown)
+			if (ScreenInput.jumpDown) {
 				body.AddForce(Vector2.up * jumpForce * body.mass);
+				audio.PlayOneShot(jumpSound);
+			}
 		}
 
 		if (!MoveHead.attached && Time.time > detachedTime + timeFixedAfterSwipe) {
