@@ -1,0 +1,371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740e3a72aec82c147ba72d7ab4df09ee, type: 3}
+  m_Name: Dialogues
+  m_EditorClassIdentifier: 
+  entries:
+  - id: test1
+    maxLineId: 8
+    speakers:
+    - MadScientist
+    - Teddy
+    - Mad Scientist
+  - id: teddy_wakes_up_cage
+    maxLineId: 2
+    speakers:
+    - 
+    - Teddy
+    - MadScientist
+  - id: startle_bork
+    maxLineId: 2
+    speakers:
+    - Mad Scientist
+  - id: dumpster_dia_backup
+    maxLineId: 4
+    speakers:
+    - MadScientist
+    - Teddy
+    - ??????
+  - id: 1st_enemy
+    maxLineId: 2
+    speakers:
+    - MadScientist
+    - Teddy
+  - id: pick_up_teddy
+    maxLineId: 2
+    speakers:
+    - MadScientist
+    - Teddy
+  - id: checkpoint_room
+    maxLineId: 2
+    speakers:
+    - checkpointer
+    - MadScientist
+    - Teddy
+  - id: checkpoint_org
+    maxLineId: 2
+    speakers:
+    - checkpointer
+  - id: dumpster_shredder
+    maxLineId: 2
+    speakers:
+    - Teddy
+  - id: sees_key
+    maxLineId: 2
+    speakers:
+    - Teddy
+  - id: obtains_key
+    maxLineId: 2
+    speakers:
+    - Teddy
+  - id: thunder_button_room
+    maxLineId: 2
+    speakers:
+    - Teddy
+  - id: mainframe_room
+    maxLineId: 2
+    speakers:
+    - Teddy
+  - id: hacking
+    maxLineId: 2
+    speakers:
+    - Teddy
+  - id: purg_all_logs
+    maxLineId: 6
+    speakers:
+    - MadScientist
+    - Teddy
+  lines:
+  - id: 0
+    dialogueEntry: test1
+    dialogue: 
+    output: 02000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Mad Scientist
+  - id: 0
+    dialogueEntry: teddy_wakes_up_cage
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 2
+    dialogueEntry: test1
+    dialogue: I'm a friend of Sarah Connor. I was told she was there. Could I see
+      her please ?
+    output: 03000000
+    position: {x: 168, y: 38}
+    userData: 
+    speaker: Teddy
+  - id: 3
+    dialogueEntry: test1
+    dialogue: No, you can't see her she's making a statement.
+    output: 05000000
+    position: {x: 374, y: 67}
+    userData: 
+    speaker: Mad Scientist
+  - id: 5
+    dialogueEntry: test1
+    dialogue: Where is she ?
+    output: 06000000
+    position: {x: 525, y: 73}
+    userData: 
+    speaker: Teddy
+  - id: 6
+    dialogueEntry: test1
+    dialogue: It may take a while. Want to wait ? There's a bench over there.
+    output: 07000000
+    position: {x: 87, y: 189}
+    userData: 
+    speaker: Mad Scientist
+  - id: 7
+    dialogueEntry: test1
+    dialogue: I'll be back!
+    output: 
+    position: {x: 291, y: 202}
+    userData: 
+    speaker: Teddy
+  - id: 0
+    dialogueEntry: startle_bork
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Mad Scientist
+  - id: 0
+    dialogueEntry: dumpster_dia_backup
+    dialogue: 
+    output: 010000000100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: MadScientist
+  - id: 1
+    dialogueEntry: dumpster_dia_backup
+    dialogue: Don... donde esta?... Trabajo?
+    output: 020000000200000002000000
+    position: {x: 51, y: 112}
+    userData: 
+    speaker: Teddy
+  - id: 2
+    dialogueEntry: dumpster_dia_backup
+    dialogue: 'A tomb... You''re tomb. '
+    output: 0300000003000000
+    position: {x: 179, y: 18}
+    userData: 
+    speaker: ??????
+  - id: 3
+    dialogueEntry: dumpster_dia_backup
+    dialogue: '!?'
+    output: 
+    position: {x: 310, y: 100}
+    userData: 
+    speaker: Teddy
+  - id: 1
+    dialogueEntry: startle_bork
+    dialogue: What!? How did you get out of ze cage!?
+    output: 
+    position: {x: 163, y: 8}
+    userData: 
+    speaker: Mad Scientist
+  - id: 1
+    dialogueEntry: teddy_wakes_up_cage
+    dialogue: 'Hmm...? Where am I?.... eh Who.. Am I? o.O '
+    output: 
+    position: {x: 160, y: 13}
+    userData: 
+    speaker: Teddy
+  - id: 0
+    dialogueEntry: 1st_enemy
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 1
+    dialogueEntry: 1st_enemy
+    dialogue: Hermano miguel?
+    output: 
+    position: {x: 160, y: 10}
+    userData: '!!'
+    speaker: Teddy
+  - id: 0
+    dialogueEntry: pick_up_teddy
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: MadScientist
+  - id: 1
+    dialogueEntry: pick_up_teddy
+    dialogue: '*sigh... Now my zyborg i muzt put you in a zafe place.'
+    output: 
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: MadScientist
+  - id: 0
+    dialogueEntry: checkpoint_room
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: checkpointer
+  - id: 1
+    dialogueEntry: checkpoint_room
+    dialogue: "Long you live and high you fly \nsmiles you'll give and tears you'll
+      cry\nto me you'll turn in case you die"
+    output: 
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: checkpointer
+  - id: 0
+    dialogueEntry: checkpoint_org
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: checkpointer
+  - id: 1
+    dialogueEntry: checkpoint_org
+    dialogue: You'll return to me if something goes bad.. Cause i can rebuild you
+      ... Forever! XOXOXO
+    output: 
+    position: {x: 161, y: 10}
+    userData: 
+    speaker: checkpointer
+  - id: 0
+    dialogueEntry: dumpster_shredder
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 1
+    dialogueEntry: dumpster_shredder
+    dialogue: ..  I should probably avoid those spikes..
+    output: 
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 0
+    dialogueEntry: sees_key
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 1
+    dialogueEntry: sees_key
+    dialogue: A key... Why is it always a key!? why not ice cream or something...
+    output: 
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 0
+    dialogueEntry: obtains_key
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 1
+    dialogueEntry: obtains_key
+    dialogue: yay! Key .. Where does this go again?
+    output: 
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 0
+    dialogueEntry: thunder_button_room
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 1
+    dialogueEntry: thunder_button_room
+    dialogue: 'yeah... lightning''s bad... '
+    output: 
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 0
+    dialogueEntry: mainframe_room
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 1
+    dialogueEntry: mainframe_room
+    dialogue: 'Ah! A friendly face :) '
+    output: 
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 0
+    dialogueEntry: hacking
+    dialogue: 
+    output: 0100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 1
+    dialogueEntry: hacking
+    dialogue: Sorry friend... Just feed you this ball and then ...
+    output: 
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Teddy
+  - id: 0
+    dialogueEntry: purg_all_logs
+    dialogue: 
+    output: 010000000100000001000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: MadScientist
+  - id: 1
+    dialogueEntry: purg_all_logs
+    dialogue: Do you realize what you have done? you have ruined Decades of work!
+    output: 02000000020000000200000002000000
+    position: {x: 161, y: 10}
+    userData: 
+    speaker: MadScientist
+  - id: 2
+    dialogueEntry: purg_all_logs
+    dialogue: I can't believe this! You were supposed to be my legacy! We were supposed
+      to save the world!
+    output: 030000000300000003000000
+    position: {x: 310, y: 9}
+    userData: 
+    speaker: MadScientist
+  - id: 3
+    dialogueEntry: purg_all_logs
+    dialogue: We were supposed to achieve TRUE peace! So close yet so far away...
+      And now it's gone. ALL GONE. Thanks to you!
+    output: 0400000004000000
+    position: {x: 1, y: 100}
+    userData: 
+    speaker: MadScientist
+  - id: 4
+    dialogueEntry: purg_all_logs
+    dialogue: You stupid little self-aware piece of scrap! YOU. WILL. PAY.
+    output: 0500000005000000
+    position: {x: 151, y: 100}
+    userData: 
+    speaker: MadScientist
+  - id: 5
+    dialogueEntry: purg_all_logs
+    dialogue: no hablo espanol senor.
+    output: 
+    position: {x: 301, y: 100}
+    userData: 
+    speaker: Teddy
