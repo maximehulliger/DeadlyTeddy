@@ -9,6 +9,7 @@ public class MoveBody : MonoBehaviour {
 	public float jumpForce = 200;
 	public float maxSpeed = 50;		// px / sec, horizontal
 	public float timeFixedAfterSwipe = 1;
+	public float timeToTurn = 0.2f;
 	[Space(10)]
 	public IRope rope;
 	public Transform spineBase;
@@ -21,14 +22,18 @@ public class MoveBody : MonoBehaviour {
 	private int groundContactCount = 0;	// nb of contact point with the ground
 	private float detachedTime;
 	private bool lastFixedd = true;
-	private AudioSource audio;
+	private AudioSource audioSource;
+	private bool goingRight = true;
+	private float etatRot = 1;	//1 -> right, -1 -> left
+	private Quaternion goingLeftIdentity = Quaternion.Euler(0,180,0);
 
 	// Use this for initialization
 	void Start () {
 		body = GetComponent<Rigidbody2D>();
-		audio = GetComponent<AudioSource>();
+		audioSource = GetComponent<AudioSource>();
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () {
 		// horizontal movement
@@ -40,13 +45,26 @@ public class MoveBody : MonoBehaviour {
 
 		if (grounded) {
 			// standing
-			transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.identity, Time.deltaTime * 5f);
+			transform.rotation = Quaternion.Lerp(transform.rotation, 
+			        goingRight ? Quaternion.identity : goingLeftIdentity, Time.deltaTime * 5f);
 
 			// jumping
 			if (ScreenInput.jumpDown) {
 				body.AddForce(Vector2.up * jumpForce * body.mass);
-				audio.PlayOneShot(jumpSound);
+				audioSource.PlayOneShot(jumpSound);
+				groundContactCount = 0;
 			}
+		}
+		
+		// update rotation from horizontal
+		if (ScreenInput.horizontal != 0)
+			goingRight = ScreenInput.horizontal > 0;
+		if (etatRot != etatRotGoal()) {
+			etatRot += etatRotGoal() * Time.deltaTime * 2 / (timeToTurn);
+			if (goingRight && etatRot > etatRotGoal() ||
+			    !goingRight && etatRot < etatRotGoal())
+				etatRot = etatRotGoal();
+			rotateToEtatRot(etatRot);
 		}
 
 		if (!MoveHead.attached && Time.time > detachedTime + timeFixedAfterSwipe) {
@@ -83,6 +101,17 @@ public class MoveBody : MonoBehaviour {
 			if (!grounded)
 				body.constraints = RigidbodyConstraints2D.None;
 		}
+	}
+
+	private void rotateToEtatRot(float etat) {
+		Vector3 current = transform.rotation.eulerAngles;
+		
+		current.y = T.map(-etat, -1, 1, 0, 180, false);
+		transform.rotation = Quaternion.Euler(current);
+	}
+
+	private int etatRotGoal() {
+		return goingRight ? 1 : -1;
 	}
 }
 

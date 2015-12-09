@@ -2233,6 +2233,18 @@ Prefab:
       propertyPath: jumpSound
       value: 
       objectReference: {fileID: 8300000, guid: d0edf12333cc2f04e90d278d958df6be, type: 3}
+    - target: {fileID: 481538, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481538, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11488996, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
+      propertyPath: timeToTurn
+      value: .100000001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
   m_IsPrefabParent: 0

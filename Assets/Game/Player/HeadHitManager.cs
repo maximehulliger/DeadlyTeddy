@@ -10,12 +10,12 @@ public class HeadHitManager : MonoBehaviour {
 	public AudioClip woodHitSound;
 
 	private MoveHead headMovment;
-	private AudioSource audio;
+	private AudioSource audioSource;
 
 	// Use this for initialization
 	void Start () {
 		headMovment = MoveHead.instance;
-		audio = GetComponent<AudioSource>();
+		audioSource = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -29,16 +29,16 @@ public class HeadHitManager : MonoBehaviour {
 			headMovment.canBeSwiped = true;
 			switch (collTag) {
 			case "Wood":
-				audio.PlayOneShot(woodHitSound);
+				audioSource.PlayOneShot(woodHitSound);
 				break;
 			case "Rubber":
-				audio.PlayOneShot(rubbertHitSound);
+				audioSource.PlayOneShot(rubbertHitSound);
 				break;
 			case "Iron":
-				audio.PlayOneShot(ironHitSound);
+				audioSource.PlayOneShot(ironHitSound);
 				break;
 			default:
-				audio.PlayOneShot(defaultHitSound);
+				audioSource.PlayOneShot(defaultHitSound);
 				break;
 			}
 		}
