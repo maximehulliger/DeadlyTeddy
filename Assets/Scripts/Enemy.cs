@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour {
 	 
 	// Use this for initialization
 	void Start () {
-		Switch_num = 0;
+		Switch_num = 1;
 		direc = 2;
 		body = GetComponent<Rigidbody2D> ();
 	}
@@ -17,8 +17,9 @@ public class Enemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Switch_num == Enem_num) {
-			float h;
-			h = (ScreenInput.hasSwipe ? -1 : 0) + ScreenInput.horizontal;
+//			float h;
+//			h = (ScreenInput.hasSwipe ? -1 : 0) + ScreenInput.horizontal;
+			int h = -1;
 			transform.Translate (Vector2.right * h * Time.deltaTime * direc); 
 		}
 	}
@@ -26,9 +27,16 @@ public class Enemy : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Enemy") {
 			direc = direc * -1;
-		}
+		} 
 		if (coll.gameObject.tag == "Return") {
 			direc = direc * -1;
 		}
+		if (coll.gameObject.tag == "Player") {
+			Invoke("die",1);
+		} 
 	}
-}
+	
+	void die(){
+		Destroy(gameObject);
+	}
+}  

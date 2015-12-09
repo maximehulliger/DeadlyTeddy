@@ -15,7 +15,8 @@ public class EnemyReverse : MonoBehaviour {
 	void Update () {
 		if (Enemy.Switch_num == Enem_num) {
 			float h;
-			h = (ScreenInput.hasSwipe ? 1 : 0) + ScreenInput.horizontal;
+//			h = (ScreenInput.hasSwipe ? 1 : 0) + ScreenInput.horizontal;
+			h = 1.0f;
 			transform.Translate (Vector2.right * h * Time.deltaTime * direc);
 		}
 	}
@@ -24,5 +25,15 @@ public class EnemyReverse : MonoBehaviour {
 		if (coll.gameObject.tag == "Enemy") {
 			direc = direc * -1;
 		}
+		if (coll.gameObject.tag == "Return") {
+			direc = direc * -1;
+		}
+		if (coll.gameObject.tag == "Player") {
+			Invoke("die",1);
+		} 
+	}
+
+	void die(){
+		Destroy(gameObject);
 	}
 }
