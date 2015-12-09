@@ -13,6 +13,7 @@ public class MoveBody : MonoBehaviour {
 	[Space(10)]
 	public IRope rope;
 	public Transform spineBase;
+	public Animator animator;
 	[Space(10)]
 	public AudioClip jumpSound;
 
@@ -26,6 +27,7 @@ public class MoveBody : MonoBehaviour {
 	private bool goingRight = true;
 	private float etatRot = 1;	//1 -> right, -1 -> left
 	private Quaternion goingLeftIdentity = Quaternion.Euler(0,180,0);
+	private bool walkingAnimOn = false;
 
 	// Use this for initialization
 	void Start () {
@@ -36,11 +38,24 @@ public class MoveBody : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		// horizontal movement
+		// horizontal movement + anim
 		float h = ScreenInput.horizontal;
 		//if he wants to move and doesn't move too fast
 		if (h != 0 && Mathf.Sign(h) * body.velocity.x < maxSpeed) {
 			body.AddForce(Vector2.right * h * moveForce * body.mass);
+		}
+		//animation
+		if (h != 0) {
+			if (!walkingAnimOn) {
+				walkingAnimOn = true;
+				animator.Play("walk");
+				animator.speed = 8;
+			}
+		} else {
+			if(walkingAnimOn && body.velocity.sqrMagnitude < 0.2f) {
+				animator.Play("idle");
+				walkingAnimOn = false;
+			}
 		}
 
 		if (grounded) {
