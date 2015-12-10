@@ -76,6 +76,7 @@ public class MoveHead : MonoBehaviour {
 				head.velocity = Vector2.zero;
 				rope.minNbOfPoint = 2;
 			} else if (distSqr > attractDist*attractDist) {
+				//print ("trop loin");
 				setAttached(false);
 			} else if ( distSqr < attractDist*attractDist/4) {
 				//print ("très pres");
@@ -84,7 +85,8 @@ public class MoveHead : MonoBehaviour {
 				//print ("va contre!");
 				setAttached(true);
 			} else {
-				//print ("mauvais client (dist: "+Mathf.Sqrt(distSqr));
+				//print ("mauvais (pas seul)");
+
 				setAttached(false);
 			}
 		}
@@ -109,9 +111,9 @@ public class MoveHead : MonoBehaviour {
 	private bool goingTowardBody() {
 		Vector2 v = head.velocity - body.velocity;
 		Vector2 x = body.position - head.position;
-		/*print("dot: "+Vector2.Dot(v,x));
-		if (!(Vector2.Dot(v,x) >= 0))
-			print("dot: "+Vector2.Dot(v,x)+" dv: "+v);*/
+		/*if (!(Vector2.Dot(v,x) >= 0)) {
+			print("mauvais client ! dot: "+Vector2.Dot(v,x)+"\n dv: "+v+" dx: "+x);
+		}*/
 		return Vector2.Dot(v,x) >= 0;
 	}
 
@@ -121,11 +123,11 @@ public class MoveHead : MonoBehaviour {
 			//print ("attached: "+attached);
 			bodyCollHead.enabled = attached;
 			//headCollHead.enabled = !attached;
-			head.isKinematic = attached;
-			/*Physics2D.IgnoreLayerCollision(
+			//head.isKinematic = attached;
+			Physics2D.IgnoreLayerCollision(
 				LayerMask.NameToLayer("PlayerBody"),
 				LayerMask.NameToLayer("PlayerHead"),
-				attached);*/
+				attached);//*/
 			head.constraints = attached ? RigidbodyConstraints2D.FreezeRotation : RigidbodyConstraints2D.None;
 			head.gravityScale = attached ? 0 : 1;
 			if (attached) {	

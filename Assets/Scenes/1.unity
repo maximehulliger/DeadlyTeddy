@@ -94,11 +94,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 420662, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -11.6999998
+      value: -29.7399998
       objectReference: {fileID: 0}
     - target: {fileID: 420662, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -123.800003
+      value: -193.259995
       objectReference: {fileID: 0}
     - target: {fileID: 420662, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -128,18 +128,7 @@ Prefab:
       propertyPath: textArea
       value: 
       objectReference: {fileID: 1346790734}
-    - target: {fileID: 11425010, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299448, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
-      propertyPath: BypassListenerEffects
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 11400356, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
-    - {fileID: 11490336, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
-    - {fileID: 11425010, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &4948105
@@ -565,19 +554,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 455536, guid: 0550db9892d595245864091923de92ef, type: 2}
       propertyPath: m_LocalScale.x
-      value: .779856086
+      value: .997122288
       objectReference: {fileID: 0}
     - target: {fileID: 455536, guid: 0550db9892d595245864091923de92ef, type: 2}
       propertyPath: m_LocalScale.y
-      value: .781326771
+      value: .997542977
       objectReference: {fileID: 0}
     - target: {fileID: 22410656, guid: 0550db9892d595245864091923de92ef, type: 2}
       propertyPath: m_LocalScale.x
-      value: .779856086
+      value: .997122288
       objectReference: {fileID: 0}
     - target: {fileID: 22410656, guid: 0550db9892d595245864091923de92ef, type: 2}
       propertyPath: m_LocalScale.y
-      value: .781326771
+      value: .997542977
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0550db9892d595245864091923de92ef, type: 2}
@@ -984,21 +973,6 @@ MonoBehaviour:
   dialogueName: dumpster_dia_backup
   userControl: 0
   unique: 1
---- !u!1 &463631970 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 159474, guid: c6703e3a611f66748b1983b7d5f2bc4c, type: 2}
-  m_PrefabInternal: {fileID: 3154270}
---- !u!114 &463631978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 463631970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d259ac36363e04491aeb113d7e460319, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &479748641 stripped
 Transform:
   m_PrefabParentObject: {fileID: 493528, guid: cb602d93b44ceef4faafe1c22ca450ba, type: 2}

@@ -278,11 +278,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 452000}
   - 58: {fileID: 5898696}
-  - 58: {fileID: 5825990}
   - 50: {fileID: 5031208}
   - 114: {fileID: 11460844}
   - 114: {fileID: 11432366}
-  - 114: {fileID: 11400356}
   - 82: {fileID: 8297178}
   - 114: {fileID: 11433360}
   - 114: {fileID: 11406288}
@@ -1717,8 +1715,7 @@ GameObject:
   - 50: {fileID: 5088092}
   - 82: {fileID: 8235076}
   - 114: {fileID: 11488996}
-  - 114: {fileID: 11490336}
-  - 114: {fileID: 11425010}
+  - 114: {fileID: 11463418}
   m_Layer: 9
   m_Name: Body
   m_TagString: Player
@@ -2884,7 +2881,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194646}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.2999992, y: -22.1084728, z: 0}
+  m_LocalPosition: {x: -29.7399998, y: -193.259995, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 452000}
@@ -5768,19 +5765,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!58 &5825990
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 110202}
-  m_Enabled: 0
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: .5
 --- !u!58 &5830656
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -6003,7 +5987,7 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
-  BypassListenerEffects: 0
+  BypassListenerEffects: 1
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
@@ -6091,17 +6075,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11400356
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 110202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67a181499e5dead45940f51c7694b781, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11406288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6134,17 +6107,6 @@ MonoBehaviour:
   shakeFrequency: 10
   shakeRotFrequency: 6
   radiusFactor: .100000001
---- !u!114 &11425010
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67a181499e5dead45940f51c7694b781, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11431772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6228,6 +6190,17 @@ MonoBehaviour:
   lockDist: .200000003
   rope: {fileID: 11495414}
   spineEnd: {fileID: 461704}
+--- !u!114 &11463418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d259ac36363e04491aeb113d7e460319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11476770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6274,17 +6247,6 @@ MonoBehaviour:
   spineBase: {fileID: 435970}
   animator: {fileID: 9536204}
   jumpSound: {fileID: 8300000, guid: d0edf12333cc2f04e90d278d958df6be, type: 3}
---- !u!114 &11490336
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d259ac36363e04491aeb113d7e460319, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11495414
 MonoBehaviour:
   m_ObjectHideFlags: 1
