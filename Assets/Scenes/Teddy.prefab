@@ -1716,6 +1716,8 @@ GameObject:
   - 82: {fileID: 8235076}
   - 114: {fileID: 11488996}
   - 114: {fileID: 11463418}
+  - 114: {fileID: 11435632}
+  - 114: {fileID: 11402890}
   m_Layer: 9
   m_Name: Body
   m_TagString: Player
@@ -2881,7 +2883,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194646}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.7399998, y: -193.259995, z: -20}
+  m_LocalPosition: {x: -48.0400009, y: -29.2800007, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 452000}
@@ -4561,7 +4563,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .639215708, g: .733333349, b: .768627465, a: .0196078438}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: .0196078438}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -6075,6 +6077,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11402890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a181499e5dead45940f51c7694b781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11406288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6144,6 +6157,17 @@ MonoBehaviour:
   rubbertHitSound: {fileID: 8300000, guid: a53889b55e81d5b4aad45f76572affe4, type: 3}
   ironHitSound: {fileID: 8300000, guid: 4b79c5103c443564d8fee40bf9d514ac, type: 3}
   woodHitSound: {fileID: 8300000, guid: 8dfc99f690c71c147a26274aec3ac641, type: 3}
+--- !u!114 &11435632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d259ac36363e04491aeb113d7e460319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11446168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6162,12 +6186,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194646}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 644009c178cc3dc4590cc984617fe8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeScale: 1
+  timeScale: 0
 --- !u!114 &11460844
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8289,7 +8313,19 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 194646}

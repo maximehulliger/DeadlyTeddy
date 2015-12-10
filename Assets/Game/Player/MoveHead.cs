@@ -49,6 +49,7 @@ public class MoveHead : MonoBehaviour {
 		// apply swipe force
 		if (ScreenInput.hasSwipe && canBeSwiped && head.velocity.sqrMagnitude < maxSpeed*maxSpeed) {
 			isSwiping = true;
+			setAttached(false);
 			switch (swipeMapping) {
 			case SwipeMapping.Force:
 				head.AddForce(ScreenInput.swipe * forceRatio);
@@ -57,7 +58,6 @@ public class MoveHead : MonoBehaviour {
 				head.velocity = ScreenInput.swipe * velocityRatio;
 				break;
 			}
-			setAttached(false);
 		}
 
 		// prevent second swipe
@@ -119,6 +119,7 @@ public class MoveHead : MonoBehaviour {
 
 	void setAttached(bool isAttached) {
 		if (attached != isAttached) {
+			head.isKinematic = false;
 			attached = isAttached;
 			//print ("attached: "+attached);
 			bodyCollHead.enabled = attached;

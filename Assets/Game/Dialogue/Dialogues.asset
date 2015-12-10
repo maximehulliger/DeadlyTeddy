@@ -12,22 +12,18 @@ MonoBehaviour:
   m_Name: Dialogues
   m_EditorClassIdentifier: 
   entries:
-  - id: test1
+  - id: test
     maxLineId: 8
     speakers:
     - MadScientist
     - Teddy
     - Mad Scientist
-  - id: teddy_wakes_up_cage
-    maxLineId: 2
-    speakers:
-    - 
-    - Teddy
-    - MadScientist
-  - id: startle_bork
-    maxLineId: 2
+  - id: prologue
+    maxLineId: 9
     speakers:
     - Mad Scientist
+    - ??????
+    - ?????
   - id: dumpster_dia_backup
     maxLineId: 4
     speakers:
@@ -83,23 +79,20 @@ MonoBehaviour:
     speakers:
     - MadScientist
     - Teddy
+  - id: awakening
+    maxLineId: 2
+    speakers:
+    - Teddy
   lines:
   - id: 0
-    dialogueEntry: test1
+    dialogueEntry: test
     dialogue: 
     output: 02000000
     position: {x: 10, y: 10}
     userData: 
     speaker: Mad Scientist
-  - id: 0
-    dialogueEntry: teddy_wakes_up_cage
-    dialogue: 
-    output: 0100000001000000
-    position: {x: 10, y: 10}
-    userData: 
-    speaker: Teddy
   - id: 2
-    dialogueEntry: test1
+    dialogueEntry: test
     dialogue: I'm a friend of Sarah Connor. I was told she was there. Could I see
       her please ?
     output: 03000000
@@ -107,40 +100,40 @@ MonoBehaviour:
     userData: 
     speaker: Teddy
   - id: 3
-    dialogueEntry: test1
+    dialogueEntry: test
     dialogue: No, you can't see her she's making a statement.
     output: 05000000
     position: {x: 374, y: 67}
     userData: 
     speaker: Mad Scientist
   - id: 5
-    dialogueEntry: test1
+    dialogueEntry: test
     dialogue: Where is she ?
     output: 06000000
     position: {x: 525, y: 73}
     userData: 
     speaker: Teddy
   - id: 6
-    dialogueEntry: test1
+    dialogueEntry: test
     dialogue: It may take a while. Want to wait ? There's a bench over there.
     output: 07000000
     position: {x: 87, y: 189}
     userData: 
     speaker: Mad Scientist
   - id: 7
-    dialogueEntry: test1
+    dialogueEntry: test
     dialogue: I'll be back!
     output: 
     position: {x: 291, y: 202}
     userData: 
     speaker: Teddy
   - id: 0
-    dialogueEntry: startle_bork
+    dialogueEntry: prologue
     dialogue: 
-    output: 01000000
+    output: 04000000
     position: {x: 10, y: 10}
     userData: 
-    speaker: Mad Scientist
+    speaker: ?????
   - id: 0
     dialogueEntry: dumpster_dia_backup
     dialogue: 
@@ -167,20 +160,6 @@ MonoBehaviour:
     dialogue: '!?'
     output: 
     position: {x: 310, y: 100}
-    userData: 
-    speaker: Teddy
-  - id: 1
-    dialogueEntry: startle_bork
-    dialogue: What!? How did you get out of ze cage!?
-    output: 
-    position: {x: 163, y: 8}
-    userData: 
-    speaker: Mad Scientist
-  - id: 1
-    dialogueEntry: teddy_wakes_up_cage
-    dialogue: 'Hmm...? Where am I?.... eh Who.. Am I? o.O '
-    output: 
-    position: {x: 160, y: 13}
     userData: 
     speaker: Teddy
   - id: 0
@@ -367,5 +346,47 @@ MonoBehaviour:
     dialogue: no hablo espanol senor.
     output: 
     position: {x: 301, y: 100}
+    userData: 
+    speaker: Teddy
+  - id: 4
+    dialogueEntry: prologue
+    dialogue: What!? How did you get out of ze cage!?
+    output: 06000000
+    position: {x: 154, y: 16}
+    userData: 
+    speaker: ?????
+  - id: 6
+    dialogueEntry: prologue
+    dialogue: '... Now, now, little one. Calm down.'
+    output: 07000000
+    position: {x: 296, y: 21}
+    userData: 
+    speaker: ?????
+  - id: 7
+    dialogueEntry: prologue
+    dialogue: It's dangerous out there! This is for your own good.
+    output: 08000000
+    position: {x: 423, y: 36}
+    userData: 
+    speaker: ?????
+  - id: 8
+    dialogueEntry: prologue
+    dialogue: 'See you in a bit! Todellooooooo :) '
+    output: 
+    position: {x: 552, y: 43}
+    userData: 
+    speaker: ?????
+  - id: 0
+    dialogueEntry: awakening
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: awakening
+    dialogue: whe.. Where am I? eh.. Who.. am I? o.O
+    output: 
+    position: {x: 199, y: 28}
     userData: 
     speaker: Teddy

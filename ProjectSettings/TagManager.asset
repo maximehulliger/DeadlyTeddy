@@ -14,6 +14,15 @@ TagManager:
   - ExplosionFX
   - HealthBar
   - ground
+  - needle
+  - Flag
+  - Key
+  - Return
+  - Breakable
+  - Leftboundfloor
+  - Switch
+  - next
+  - Flag_1
   layers:
   - Default
   - TransparentFX

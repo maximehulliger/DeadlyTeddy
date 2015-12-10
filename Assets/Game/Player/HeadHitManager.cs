@@ -34,6 +34,7 @@ public class HeadHitManager : MonoBehaviour {
 				audioSource.PlayOneShot(woodHitSound);
 				break;
 			case "Rubber":
+			case "Switch":
 				audioSource.PlayOneShot(rubbertHitSound);
 				break;
 			case "Iron":

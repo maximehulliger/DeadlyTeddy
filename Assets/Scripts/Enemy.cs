@@ -32,7 +32,7 @@ public class Enemy : MonoBehaviour {
 			direc = direc * -1;
 		}
 		if (coll.gameObject.tag == "Player") {
-			Invoke("die",1);
+			Invoke("die",0.5f);
 		} 
 	}
 	

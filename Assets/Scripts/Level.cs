@@ -8,7 +8,6 @@ public class Level : MonoBehaviour {
 	private static Vector2 flag_pos;
 	private Vector2 lspeed;
 	public static int scene = 0; 
-	private int Enemy_num = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -17,14 +16,17 @@ public class Level : MonoBehaviour {
 		this._next2 = GameObject.Find("nextStage2");
 		this._Head = GameObject.Find("Head");
 		this._Body = GameObject.Find("Body");
-//		this._thunder = GameObject.Find("thunder");
 		this._Thunder = GameObject.Find("Thunder");
 		this._key = GameObject.Find("Key");
 
 		if (as_Flag) {
-			this._Body.transform.parent.position = flag_pos;
+ 			this._Body.transform.parent.position = flag_pos;
+			GameObject blackStuff = GameObject.Find("Black_screen");
+			if (blackStuff) {
+				blackStuff.SetActive(false);
+				GameObject.Find("Body").GetComponent<Rigidbody2D>().isKinematic = false;
+			}
 		}
-		Enemy_num = 0;
 		lspeed = new Vector2 (-20, 20);
 		scene = Application.loadedLevel;
 	}
@@ -52,12 +54,12 @@ public class Level : MonoBehaviour {
 			Destroy(this._next2);
 		}
 		if (coll.gameObject.tag == "Finish") {
-			scene = 1;
+			scene = 2;
 			as_Flag = false;
 			Application.LoadLevel (scene);
 		}
 		if (coll.gameObject.tag == "next") {
-			scene = 2;
+			scene = 3;
 			as_Flag = false;
 			Application.LoadLevel(scene);
 		}

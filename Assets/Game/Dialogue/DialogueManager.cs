@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour {
 	private static DialogueManager instance;
 
 	/// speed at wich the letters are displayed in the bubble, in letter / sec
-	public float printSpeed = 5;
+	public float printSpeed = 1;
 
 	private EasyDialogueManager manager;
 	private Dialogue currentDialogue = null;
@@ -93,6 +93,13 @@ public class DialogueManager : MonoBehaviour {
 			ScreenInput.userControl = true;
 		if (endAction != null)
 			endAction();
+
+		// fuck system.action ... couldn't be casted to bool :((
+		if(GameObject.Find("Body").GetComponent<Rigidbody2D>().isKinematic)
+		{
+			GameObject.Find("Black_screen").GetComponent<AudioSource>().Play();
+			GameObject.Find ("Black_screen").GetComponent<blackscreen_script>().toggleHatch = true;
+		}
 	}
 
 
