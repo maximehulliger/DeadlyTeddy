@@ -1,0 +1,1296 @@
+fileFormatVersion: 2
+guid: 185484124840445c09d7a599ddd78cce
+timeCreated: 1448880765
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arms
+    100002: Belly
+    100004: Body
+    100006: BottomTeeth
+    100008: Character1_Head
+    100010: Character1_Hips
+    100012: Character1_LeftArm
+    100014: Character1_LeftFoot
+    100016: Character1_LeftForeArm
+    100018: Character1_LeftHand
+    100020: Character1_LeftLeg
+    100022: Character1_LeftShoulder
+    100024: Character1_LeftToeBase
+    100026: Character1_LeftUpLeg
+    100028: Character1_Neck
+    100030: Character1_Neck1
+    100032: Character1_Reference
+    100034: Character1_RightArm
+    100036: Character1_RightFoot
+    100038: Character1_RightForeArm
+    100040: Character1_RightHand
+    100042: Character1_RightLeg
+    100044: Character1_RightShoulder
+    100046: Character1_RightToeBase
+    100048: Character1_RightUpLeg
+    100050: Character1_Spine
+    100052: Face
+    100054: front1
+    100056: group1
+    100058: group2
+    100060: Head
+    100062: Head 1
+    100064: Head 2
+    100066: Headpiece
+    100068: Headpiece1
+    100070: Headpiece2
+    100072: Headpiece3
+    100074: LeftArm
+    100076: LeftEye
+    100078: LeftEye 1
+    100080: LeftEyebrow
+    100082: LeftEyebrow1
+    100084: LeftLeg
+    100086: Legs
+    100088: Nose
+    100090: Nose 1
+    100092: pCube1
+    100094: pCube1 1
+    100096: pCube2
+    100098: pCube2 1
+    100100: pCube3
+    100102: pCube3 1
+    100104: pCube4
+    100106: pCube4 1
+    100108: pCube5
+    100110: pCube5 1
+    100112: pCube6
+    100114: pCube6 1
+    100116: pCylinder1
+    100118: pCylinder1 1
+    100120: pCylinder2
+    100122: pCylinder2 1
+    100124: pPipe1
+    100126: pPipe1 1
+    100128: pSphere1
+    100130: pSphere1 1
+    100132: pSphere2
+    100134: pSphere2 1
+    100136: RightArm
+    100138: RightEar
+    100140: RightEar1
+    100142: RightEye
+    100144: RightEye 1
+    100146: RightEyebrow
+    100148: RightEyebrow1
+    100150: RightInnerEar
+    100152: RightInnerEar1
+    100154: RightLeg
+    100156: side1
+    100158: Spine
+    100160: Spine 1
+    100162: Spine1
+    100164: Spine2
+    100166: Spine3
+    100168: Spine4
+    100170: Spine5
+    100172: Spine6
+    100174: Tech
+    100176: Tech1
+    100178: Teddy
+    100180: //RootNode
+    100182: TeddyRef
+    100184: Terminator1
+    100186: TermRef
+    100188: TEyes
+    100190: tfront
+    100192: tHead
+    100194: top1
+    100196: TopTeeth
+    100198: tside
+    100200: ttop
+    400000: Arms
+    400002: Belly
+    400004: Body
+    400006: BottomTeeth
+    400008: Character1_Head
+    400010: Character1_Hips
+    400012: Character1_LeftArm
+    400014: Character1_LeftFoot
+    400016: Character1_LeftForeArm
+    400018: Character1_LeftHand
+    400020: Character1_LeftLeg
+    400022: Character1_LeftShoulder
+    400024: Character1_LeftToeBase
+    400026: Character1_LeftUpLeg
+    400028: Character1_Neck
+    400030: Character1_Neck1
+    400032: Character1_Reference
+    400034: Character1_RightArm
+    400036: Character1_RightFoot
+    400038: Character1_RightForeArm
+    400040: Character1_RightHand
+    400042: Character1_RightLeg
+    400044: Character1_RightShoulder
+    400046: Character1_RightToeBase
+    400048: Character1_RightUpLeg
+    400050: Character1_Spine
+    400052: Face
+    400054: front1
+    400056: group1
+    400058: group2
+    400060: Head
+    400062: Head 1
+    400064: Head 2
+    400066: Headpiece
+    400068: Headpiece1
+    400070: Headpiece2
+    400072: Headpiece3
+    400074: LeftArm
+    400076: LeftEye
+    400078: LeftEye 1
+    400080: LeftEyebrow
+    400082: LeftEyebrow1
+    400084: LeftLeg
+    400086: Legs
+    400088: Nose
+    400090: Nose 1
+    400092: pCube1
+    400094: pCube1 1
+    400096: pCube2
+    400098: pCube2 1
+    400100: pCube3
+    400102: pCube3 1
+    400104: pCube4
+    400106: pCube4 1
+    400108: pCube5
+    400110: pCube5 1
+    400112: pCube6
+    400114: pCube6 1
+    400116: pCylinder1
+    400118: pCylinder1 1
+    400120: pCylinder2
+    400122: pCylinder2 1
+    400124: pPipe1
+    400126: pPipe1 1
+    400128: pSphere1
+    400130: pSphere1 1
+    400132: pSphere2
+    400134: pSphere2 1
+    400136: RightArm
+    400138: RightEar
+    400140: RightEar1
+    400142: RightEye
+    400144: RightEye 1
+    400146: RightEyebrow
+    400148: RightEyebrow1
+    400150: RightInnerEar
+    400152: RightInnerEar1
+    400154: RightLeg
+    400156: side1
+    400158: Spine
+    400160: Spine 1
+    400162: Spine1
+    400164: Spine2
+    400166: Spine3
+    400168: Spine4
+    400170: Spine5
+    400172: Spine6
+    400174: Tech
+    400176: Tech1
+    400178: Teddy
+    400180: //RootNode
+    400182: TeddyRef
+    400184: Terminator1
+    400186: TermRef
+    400188: TEyes
+    400190: tfront
+    400192: tHead
+    400194: top1
+    400196: TopTeeth
+    400198: tside
+    400200: ttop
+    4300000: tHead
+    4300002: Headpiece
+    4300004: Headpiece1
+    4300006: pSphere1
+    4300008: pSphere2
+    4300010: pSphere1
+    4300012: pSphere2
+    4300014: Spine
+    4300016: Spine1
+    4300018: Spine2
+    4300020: Spine3
+    4300022: Spine4
+    4300024: Spine5
+    4300026: Spine6
+    4300028: pCube1
+    4300030: pCube2
+    4300032: pCube3
+    4300034: pCube4
+    4300036: pCube5
+    4300038: pCube6
+    4300040: pCube1
+    4300042: pCube2
+    4300044: pCube3
+    4300046: pCube4
+    4300048: pCube5
+    4300050: pCube6
+    4300052: Headpiece2
+    4300054: Headpiece3
+    4300056: pPipe1
+    4300058: pCylinder1
+    4300060: pCylinder2
+    4300062: pPipe1
+    4300064: pCylinder1
+    4300066: pCylinder2
+    4300068: LeftEyebrow1
+    4300070: RightEyebrow1
+    4300072: Body
+    4300074: Belly
+    4300076: LeftLeg
+    4300078: RightLeg
+    4300080: RightArm
+    4300082: LeftArm
+    4300084: Head
+    4300086: Head
+    4300088: Nose
+    4300090: RightEye
+    4300092: LeftEye
+    4300094: LeftEyebrow
+    4300096: RightEyebrow
+    4300098: RightEar
+    4300100: RightInnerEar
+    4300102: RightEar1
+    4300104: RightInnerEar1
+    7400000: walk
+    7400002: headoff
+    7400004: jump
+    7400006: idle
+    9500000: //RootNode
+    13700000: Belly
+    13700002: Body
+    13700004: Head 1
+    13700006: Head 2
+    13700008: Headpiece
+    13700010: Headpiece1
+    13700012: Headpiece2
+    13700014: Headpiece3
+    13700016: LeftArm
+    13700018: LeftEye 1
+    13700020: LeftEyebrow
+    13700022: LeftEyebrow1
+    13700024: LeftLeg
+    13700026: Nose 1
+    13700028: pCube1
+    13700030: pCube1 1
+    13700032: pCube2
+    13700034: pCube2 1
+    13700036: pCube3
+    13700038: pCube3 1
+    13700040: pCube4
+    13700042: pCube4 1
+    13700044: pCube5
+    13700046: pCube5 1
+    13700048: pCube6
+    13700050: pCube6 1
+    13700052: pCylinder1
+    13700054: pCylinder1 1
+    13700056: pCylinder2
+    13700058: pCylinder2 1
+    13700060: pPipe1
+    13700062: pPipe1 1
+    13700064: pSphere1
+    13700066: pSphere1 1
+    13700068: pSphere2
+    13700070: pSphere2 1
+    13700072: RightArm
+    13700074: RightEar
+    13700076: RightEar1
+    13700078: RightEye 1
+    13700080: RightEyebrow
+    13700082: RightEyebrow1
+    13700084: RightInnerEar
+    13700086: RightInnerEar1
+    13700088: RightLeg
+    13700090: Spine 1
+    13700092: Spine1
+    13700094: Spine2
+    13700096: Spine3
+    13700098: Spine4
+    13700100: Spine5
+    13700102: Spine6
+    13700104: tHead
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: headoff
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character1_Reference
+        weight: 1
+      - path: Character1_Reference/Character1_Hips
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg/Character1_LeftFoot
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg/Character1_LeftFoot/Character1_LeftToeBase
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg/Character1_RightFoot
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg/Character1_RightFoot/Character1_RightToeBase
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm/Character1_LeftForeArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm/Character1_LeftForeArm/Character1_LeftHand
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck/Character1_Neck1
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck/Character1_Neck1/Character1_Head
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm/Character1_RightForeArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm/Character1_RightForeArm/Character1_RightHand
+        weight: 1
+      - path: Teddy
+        weight: 1
+      - path: Teddy/Arms
+        weight: 1
+      - path: Teddy/Arms/LeftArm
+        weight: 1
+      - path: Teddy/Arms/RightArm
+        weight: 1
+      - path: Teddy/Belly
+        weight: 1
+      - path: Teddy/Body
+        weight: 1
+      - path: Teddy/group1
+        weight: 1
+      - path: Teddy/group1/Face
+        weight: 1
+      - path: Teddy/group1/Face/Head 1
+        weight: 1
+      - path: Teddy/group1/Face/LeftEye 1
+        weight: 1
+      - path: Teddy/group1/Face/LeftEyebrow
+        weight: 1
+      - path: Teddy/group1/Face/Nose 1
+        weight: 1
+      - path: Teddy/group1/Face/RightEar
+        weight: 1
+      - path: Teddy/group1/Face/RightEar1
+        weight: 1
+      - path: Teddy/group1/Face/RightEye 1
+        weight: 1
+      - path: Teddy/group1/Face/RightEyebrow
+        weight: 1
+      - path: Teddy/group1/Face/RightInnerEar
+        weight: 1
+      - path: Teddy/group1/Face/RightInnerEar1
+        weight: 1
+      - path: Teddy/group1/Head
+        weight: 1
+      - path: Teddy/group1/Head/Head 2
+        weight: 1
+      - path: Teddy/Legs
+        weight: 1
+      - path: Teddy/Legs/LeftLeg
+        weight: 1
+      - path: Teddy/Legs/RightLeg
+        weight: 1
+      - path: TeddyRef
+        weight: 1
+      - path: TeddyRef/front1
+        weight: 1
+      - path: TeddyRef/side1
+        weight: 1
+      - path: TeddyRef/top1
+        weight: 1
+      - path: Terminator1
+        weight: 1
+      - path: Terminator1/BottomTeeth
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube1
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube2
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube3
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube4
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube5
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube6
+        weight: 1
+      - path: Terminator1/group2
+        weight: 1
+      - path: Terminator1/group2/LeftEyebrow1
+        weight: 1
+      - path: Terminator1/group2/RightEyebrow1
+        weight: 1
+      - path: Terminator1/Headpiece
+        weight: 1
+      - path: Terminator1/Headpiece1
+        weight: 1
+      - path: Terminator1/Nose
+        weight: 1
+      - path: Terminator1/Nose/Headpiece2
+        weight: 1
+      - path: Terminator1/Nose/Headpiece3
+        weight: 1
+      - path: Terminator1/Spine
+        weight: 1
+      - path: Terminator1/Spine/Spine 1
+        weight: 1
+      - path: Terminator1/Spine/Spine1
+        weight: 1
+      - path: Terminator1/Spine/Spine2
+        weight: 1
+      - path: Terminator1/Spine/Spine3
+        weight: 1
+      - path: Terminator1/Spine/Spine4
+        weight: 1
+      - path: Terminator1/Spine/Spine5
+        weight: 1
+      - path: Terminator1/Spine/Spine6
+        weight: 1
+      - path: Terminator1/Tech
+        weight: 1
+      - path: Terminator1/Tech/pCylinder1
+        weight: 1
+      - path: Terminator1/Tech/pCylinder2
+        weight: 1
+      - path: Terminator1/Tech/pPipe1
+        weight: 1
+      - path: Terminator1/Tech1
+        weight: 1
+      - path: Terminator1/Tech1/pCylinder1 1
+        weight: 1
+      - path: Terminator1/Tech1/pCylinder2 1
+        weight: 1
+      - path: Terminator1/Tech1/pPipe1 1
+        weight: 1
+      - path: Terminator1/TEyes
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye/pSphere1
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye/pSphere2
+        weight: 1
+      - path: Terminator1/TEyes/RightEye
+        weight: 1
+      - path: Terminator1/TEyes/RightEye/pSphere1 1
+        weight: 1
+      - path: Terminator1/TEyes/RightEye/pSphere2 1
+        weight: 1
+      - path: Terminator1/tHead
+        weight: 1
+      - path: Terminator1/TopTeeth
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube1 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube2 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube3 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube4 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube5 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube6 1
+        weight: 1
+      - path: TermRef
+        weight: 1
+      - path: TermRef/tfront
+        weight: 1
+      - path: TermRef/tside
+        weight: 1
+      - path: TermRef/ttop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character1_Reference
+        weight: 1
+      - path: Character1_Reference/Character1_Hips
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg/Character1_LeftFoot
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg/Character1_LeftFoot/Character1_LeftToeBase
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg/Character1_RightFoot
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg/Character1_RightFoot/Character1_RightToeBase
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm/Character1_LeftForeArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm/Character1_LeftForeArm/Character1_LeftHand
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck/Character1_Neck1
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck/Character1_Neck1/Character1_Head
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm/Character1_RightForeArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm/Character1_RightForeArm/Character1_RightHand
+        weight: 1
+      - path: Teddy
+        weight: 1
+      - path: Teddy/Arms
+        weight: 1
+      - path: Teddy/Arms/LeftArm
+        weight: 1
+      - path: Teddy/Arms/RightArm
+        weight: 1
+      - path: Teddy/Belly
+        weight: 1
+      - path: Teddy/Body
+        weight: 1
+      - path: Teddy/group1
+        weight: 1
+      - path: Teddy/group1/Face
+        weight: 1
+      - path: Teddy/group1/Face/Head 1
+        weight: 1
+      - path: Teddy/group1/Face/LeftEye 1
+        weight: 1
+      - path: Teddy/group1/Face/LeftEyebrow
+        weight: 1
+      - path: Teddy/group1/Face/Nose 1
+        weight: 1
+      - path: Teddy/group1/Face/RightEar
+        weight: 1
+      - path: Teddy/group1/Face/RightEar1
+        weight: 1
+      - path: Teddy/group1/Face/RightEye 1
+        weight: 1
+      - path: Teddy/group1/Face/RightEyebrow
+        weight: 1
+      - path: Teddy/group1/Face/RightInnerEar
+        weight: 1
+      - path: Teddy/group1/Face/RightInnerEar1
+        weight: 1
+      - path: Teddy/group1/Head
+        weight: 1
+      - path: Teddy/group1/Head/Head 2
+        weight: 1
+      - path: Teddy/Legs
+        weight: 1
+      - path: Teddy/Legs/LeftLeg
+        weight: 1
+      - path: Teddy/Legs/RightLeg
+        weight: 1
+      - path: TeddyRef
+        weight: 1
+      - path: TeddyRef/front1
+        weight: 1
+      - path: TeddyRef/side1
+        weight: 1
+      - path: TeddyRef/top1
+        weight: 1
+      - path: Terminator1
+        weight: 1
+      - path: Terminator1/BottomTeeth
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube1
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube2
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube3
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube4
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube5
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube6
+        weight: 1
+      - path: Terminator1/group2
+        weight: 1
+      - path: Terminator1/group2/LeftEyebrow1
+        weight: 1
+      - path: Terminator1/group2/RightEyebrow1
+        weight: 1
+      - path: Terminator1/Headpiece
+        weight: 1
+      - path: Terminator1/Headpiece1
+        weight: 1
+      - path: Terminator1/Nose
+        weight: 1
+      - path: Terminator1/Nose/Headpiece2
+        weight: 1
+      - path: Terminator1/Nose/Headpiece3
+        weight: 1
+      - path: Terminator1/Spine
+        weight: 1
+      - path: Terminator1/Spine/Spine 1
+        weight: 1
+      - path: Terminator1/Spine/Spine1
+        weight: 1
+      - path: Terminator1/Spine/Spine2
+        weight: 1
+      - path: Terminator1/Spine/Spine3
+        weight: 1
+      - path: Terminator1/Spine/Spine4
+        weight: 1
+      - path: Terminator1/Spine/Spine5
+        weight: 1
+      - path: Terminator1/Spine/Spine6
+        weight: 1
+      - path: Terminator1/Tech
+        weight: 1
+      - path: Terminator1/Tech/pCylinder1
+        weight: 1
+      - path: Terminator1/Tech/pCylinder2
+        weight: 1
+      - path: Terminator1/Tech/pPipe1
+        weight: 1
+      - path: Terminator1/Tech1
+        weight: 1
+      - path: Terminator1/Tech1/pCylinder1 1
+        weight: 1
+      - path: Terminator1/Tech1/pCylinder2 1
+        weight: 1
+      - path: Terminator1/Tech1/pPipe1 1
+        weight: 1
+      - path: Terminator1/TEyes
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye/pSphere1
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye/pSphere2
+        weight: 1
+      - path: Terminator1/TEyes/RightEye
+        weight: 1
+      - path: Terminator1/TEyes/RightEye/pSphere1 1
+        weight: 1
+      - path: Terminator1/TEyes/RightEye/pSphere2 1
+        weight: 1
+      - path: Terminator1/tHead
+        weight: 1
+      - path: Terminator1/TopTeeth
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube1 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube2 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube3 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube4 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube5 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube6 1
+        weight: 1
+      - path: TermRef
+        weight: 1
+      - path: TermRef/tfront
+        weight: 1
+      - path: TermRef/tside
+        weight: 1
+      - path: TermRef/ttop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character1_Reference
+        weight: 1
+      - path: Character1_Reference/Character1_Hips
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg/Character1_LeftFoot
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg/Character1_LeftFoot/Character1_LeftToeBase
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg/Character1_RightFoot
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg/Character1_RightFoot/Character1_RightToeBase
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm/Character1_LeftForeArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm/Character1_LeftForeArm/Character1_LeftHand
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck/Character1_Neck1
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck/Character1_Neck1/Character1_Head
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm/Character1_RightForeArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm/Character1_RightForeArm/Character1_RightHand
+        weight: 1
+      - path: Teddy
+        weight: 1
+      - path: Teddy/Arms
+        weight: 1
+      - path: Teddy/Arms/LeftArm
+        weight: 1
+      - path: Teddy/Arms/RightArm
+        weight: 1
+      - path: Teddy/Belly
+        weight: 1
+      - path: Teddy/Body
+        weight: 1
+      - path: Teddy/group1
+        weight: 1
+      - path: Teddy/group1/Face
+        weight: 1
+      - path: Teddy/group1/Face/Head 1
+        weight: 1
+      - path: Teddy/group1/Face/LeftEye 1
+        weight: 1
+      - path: Teddy/group1/Face/LeftEyebrow
+        weight: 1
+      - path: Teddy/group1/Face/Nose 1
+        weight: 1
+      - path: Teddy/group1/Face/RightEar
+        weight: 1
+      - path: Teddy/group1/Face/RightEar1
+        weight: 1
+      - path: Teddy/group1/Face/RightEye 1
+        weight: 1
+      - path: Teddy/group1/Face/RightEyebrow
+        weight: 1
+      - path: Teddy/group1/Face/RightInnerEar
+        weight: 1
+      - path: Teddy/group1/Face/RightInnerEar1
+        weight: 1
+      - path: Teddy/group1/Head
+        weight: 1
+      - path: Teddy/group1/Head/Head 2
+        weight: 1
+      - path: Teddy/Legs
+        weight: 1
+      - path: Teddy/Legs/LeftLeg
+        weight: 1
+      - path: Teddy/Legs/RightLeg
+        weight: 1
+      - path: TeddyRef
+        weight: 1
+      - path: TeddyRef/front1
+        weight: 1
+      - path: TeddyRef/side1
+        weight: 1
+      - path: TeddyRef/top1
+        weight: 1
+      - path: Terminator1
+        weight: 1
+      - path: Terminator1/BottomTeeth
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube1
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube2
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube3
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube4
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube5
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube6
+        weight: 1
+      - path: Terminator1/group2
+        weight: 1
+      - path: Terminator1/group2/LeftEyebrow1
+        weight: 1
+      - path: Terminator1/group2/RightEyebrow1
+        weight: 1
+      - path: Terminator1/Headpiece
+        weight: 1
+      - path: Terminator1/Headpiece1
+        weight: 1
+      - path: Terminator1/Nose
+        weight: 1
+      - path: Terminator1/Nose/Headpiece2
+        weight: 1
+      - path: Terminator1/Nose/Headpiece3
+        weight: 1
+      - path: Terminator1/Spine
+        weight: 1
+      - path: Terminator1/Spine/Spine 1
+        weight: 1
+      - path: Terminator1/Spine/Spine1
+        weight: 1
+      - path: Terminator1/Spine/Spine2
+        weight: 1
+      - path: Terminator1/Spine/Spine3
+        weight: 1
+      - path: Terminator1/Spine/Spine4
+        weight: 1
+      - path: Terminator1/Spine/Spine5
+        weight: 1
+      - path: Terminator1/Spine/Spine6
+        weight: 1
+      - path: Terminator1/Tech
+        weight: 1
+      - path: Terminator1/Tech/pCylinder1
+        weight: 1
+      - path: Terminator1/Tech/pCylinder2
+        weight: 1
+      - path: Terminator1/Tech/pPipe1
+        weight: 1
+      - path: Terminator1/Tech1
+        weight: 1
+      - path: Terminator1/Tech1/pCylinder1 1
+        weight: 1
+      - path: Terminator1/Tech1/pCylinder2 1
+        weight: 1
+      - path: Terminator1/Tech1/pPipe1 1
+        weight: 1
+      - path: Terminator1/TEyes
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye/pSphere1
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye/pSphere2
+        weight: 1
+      - path: Terminator1/TEyes/RightEye
+        weight: 1
+      - path: Terminator1/TEyes/RightEye/pSphere1 1
+        weight: 1
+      - path: Terminator1/TEyes/RightEye/pSphere2 1
+        weight: 1
+      - path: Terminator1/tHead
+        weight: 1
+      - path: Terminator1/TopTeeth
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube1 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube2 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube3 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube4 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube5 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube6 1
+        weight: 1
+      - path: TermRef
+        weight: 1
+      - path: TermRef/tfront
+        weight: 1
+      - path: TermRef/tside
+        weight: 1
+      - path: TermRef/ttop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character1_Reference
+        weight: 1
+      - path: Character1_Reference/Character1_Hips
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg/Character1_LeftFoot
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_LeftUpLeg/Character1_LeftLeg/Character1_LeftFoot/Character1_LeftToeBase
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg/Character1_RightFoot
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_RightUpLeg/Character1_RightLeg/Character1_RightFoot/Character1_RightToeBase
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm/Character1_LeftForeArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_LeftShoulder/Character1_LeftArm/Character1_LeftForeArm/Character1_LeftHand
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck/Character1_Neck1
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_Neck/Character1_Neck1/Character1_Head
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm/Character1_RightForeArm
+        weight: 1
+      - path: Character1_Reference/Character1_Hips/Character1_Spine/Character1_RightShoulder/Character1_RightArm/Character1_RightForeArm/Character1_RightHand
+        weight: 1
+      - path: Teddy
+        weight: 1
+      - path: Teddy/Arms
+        weight: 1
+      - path: Teddy/Arms/LeftArm
+        weight: 1
+      - path: Teddy/Arms/RightArm
+        weight: 1
+      - path: Teddy/Belly
+        weight: 1
+      - path: Teddy/Body
+        weight: 1
+      - path: Teddy/group1
+        weight: 1
+      - path: Teddy/group1/Face
+        weight: 1
+      - path: Teddy/group1/Face/Head 1
+        weight: 1
+      - path: Teddy/group1/Face/LeftEye 1
+        weight: 1
+      - path: Teddy/group1/Face/LeftEyebrow
+        weight: 1
+      - path: Teddy/group1/Face/Nose 1
+        weight: 1
+      - path: Teddy/group1/Face/RightEar
+        weight: 1
+      - path: Teddy/group1/Face/RightEar1
+        weight: 1
+      - path: Teddy/group1/Face/RightEye 1
+        weight: 1
+      - path: Teddy/group1/Face/RightEyebrow
+        weight: 1
+      - path: Teddy/group1/Face/RightInnerEar
+        weight: 1
+      - path: Teddy/group1/Face/RightInnerEar1
+        weight: 1
+      - path: Teddy/group1/Head
+        weight: 1
+      - path: Teddy/group1/Head/Head 2
+        weight: 1
+      - path: Teddy/Legs
+        weight: 1
+      - path: Teddy/Legs/LeftLeg
+        weight: 1
+      - path: Teddy/Legs/RightLeg
+        weight: 1
+      - path: TeddyRef
+        weight: 1
+      - path: TeddyRef/front1
+        weight: 1
+      - path: TeddyRef/side1
+        weight: 1
+      - path: TeddyRef/top1
+        weight: 1
+      - path: Terminator1
+        weight: 1
+      - path: Terminator1/BottomTeeth
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube1
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube2
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube3
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube4
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube5
+        weight: 1
+      - path: Terminator1/BottomTeeth/pCube6
+        weight: 1
+      - path: Terminator1/group2
+        weight: 1
+      - path: Terminator1/group2/LeftEyebrow1
+        weight: 1
+      - path: Terminator1/group2/RightEyebrow1
+        weight: 1
+      - path: Terminator1/Headpiece
+        weight: 1
+      - path: Terminator1/Headpiece1
+        weight: 1
+      - path: Terminator1/Nose
+        weight: 1
+      - path: Terminator1/Nose/Headpiece2
+        weight: 1
+      - path: Terminator1/Nose/Headpiece3
+        weight: 1
+      - path: Terminator1/Spine
+        weight: 1
+      - path: Terminator1/Spine/Spine 1
+        weight: 1
+      - path: Terminator1/Spine/Spine1
+        weight: 1
+      - path: Terminator1/Spine/Spine2
+        weight: 1
+      - path: Terminator1/Spine/Spine3
+        weight: 1
+      - path: Terminator1/Spine/Spine4
+        weight: 1
+      - path: Terminator1/Spine/Spine5
+        weight: 1
+      - path: Terminator1/Spine/Spine6
+        weight: 1
+      - path: Terminator1/Tech
+        weight: 1
+      - path: Terminator1/Tech/pCylinder1
+        weight: 1
+      - path: Terminator1/Tech/pCylinder2
+        weight: 1
+      - path: Terminator1/Tech/pPipe1
+        weight: 1
+      - path: Terminator1/Tech1
+        weight: 1
+      - path: Terminator1/Tech1/pCylinder1 1
+        weight: 1
+      - path: Terminator1/Tech1/pCylinder2 1
+        weight: 1
+      - path: Terminator1/Tech1/pPipe1 1
+        weight: 1
+      - path: Terminator1/TEyes
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye/pSphere1
+        weight: 1
+      - path: Terminator1/TEyes/LeftEye/pSphere2
+        weight: 1
+      - path: Terminator1/TEyes/RightEye
+        weight: 1
+      - path: Terminator1/TEyes/RightEye/pSphere1 1
+        weight: 1
+      - path: Terminator1/TEyes/RightEye/pSphere2 1
+        weight: 1
+      - path: Terminator1/tHead
+        weight: 1
+      - path: Terminator1/TopTeeth
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube1 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube2 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube3 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube4 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube5 1
+        weight: 1
+      - path: Terminator1/TopTeeth/pCube6 1
+        weight: 1
+      - path: TermRef
+        weight: 1
+      - path: TermRef/tfront
+        weight: 1
+      - path: TermRef/tside
+        weight: 1
+      - path: TermRef/ttop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

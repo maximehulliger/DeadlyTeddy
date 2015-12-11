@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: e31230ffcdbb64726ac10d977ce94ded
+timeCreated: 1448631973
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Apron
+    100002: Body
+    100004: //RootNode
+    100006: Eyebrow1
+    100008: Eyebrow2
+    100010: Face
+    100012: front1
+    100014: Hair
+    100016: LeftArm
+    100018: LeftHand
+    100020: pCube1
+    100022: pCube2
+    100024: pSphere1
+    100026: pSphere2
+    100028: pSphere3
+    100030: pSphere4
+    100032: RightArm
+    100034: RightHand
+    100036: Rocket1
+    100038: Rocket2
+    100040: Rockets
+    100042: Saucer
+    100044: side1
+    100046: top1
+    400000: Apron
+    400002: Body
+    400004: //RootNode
+    400006: Eyebrow1
+    400008: Eyebrow2
+    400010: Face
+    400012: front1
+    400014: Hair
+    400016: LeftArm
+    400018: LeftHand
+    400020: pCube1
+    400022: pCube2
+    400024: pSphere1
+    400026: pSphere2
+    400028: pSphere3
+    400030: pSphere4
+    400032: RightArm
+    400034: RightHand
+    400036: Rocket1
+    400038: Rocket2
+    400040: Rockets
+    400042: Saucer
+    400044: side1
+    400046: top1
+    2300000: Apron
+    2300002: Body
+    2300004: Eyebrow1
+    2300006: Eyebrow2
+    2300008: Face
+    2300010: Hair
+    2300012: LeftArm
+    2300014: LeftHand
+    2300016: pCube1
+    2300018: pCube2
+    2300020: pSphere1
+    2300022: pSphere2
+    2300024: pSphere3
+    2300026: pSphere4
+    2300028: RightArm
+    2300030: RightHand
+    2300032: Rocket1
+    2300034: Rocket2
+    2300036: Saucer
+    3300000: Apron
+    3300002: Body
+    3300004: Eyebrow1
+    3300006: Eyebrow2
+    3300008: Face
+    3300010: Hair
+    3300012: LeftArm
+    3300014: LeftHand
+    3300016: pCube1
+    3300018: pCube2
+    3300020: pSphere1
+    3300022: pSphere2
+    3300024: pSphere3
+    3300026: pSphere4
+    3300028: RightArm
+    3300030: RightHand
+    3300032: Rocket1
+    3300034: Rocket2
+    3300036: Saucer
+    4300000: Body
+    4300002: Apron
+    4300004: LeftArm
+    4300006: RightArm
+    4300008: LeftHand
+    4300010: RightHand
+    4300012: Rocket1
+    4300014: Rocket2
+    4300016: Saucer
+    4300018: Hair
+    4300020: Face
+    4300022: Eyebrow1
+    4300024: Eyebrow2
+    4300026: pCube1
+    4300028: pCube2
+    4300030: pSphere1
+    4300032: pSphere2
+    4300034: pSphere3
+    4300036: pSphere4
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

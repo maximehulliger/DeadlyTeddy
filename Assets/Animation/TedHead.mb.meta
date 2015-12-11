@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 6a978e4fbf4684c428d8e8cdf9b8a869
+timeCreated: 1448632538
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: pasted__BottomTeeth
+    100002: pasted__Face
+    100004: pasted__group1
+    100006: pasted__Head
+    100008: pasted__Head 1
+    100010: pasted__Head 2
+    100012: pasted__Headpiece
+    100014: pasted__Headpiece2
+    100016: pasted__Headpiece3
+    100018: pasted__LeftEye
+    100020: pasted__LeftEye 1
+    100022: pasted__LeftEyebrow
+    100024: pasted__LeftEyebrow1
+    100026: pasted__Nose
+    100028: pasted__Nose 1
+    100030: pasted__pCube1
+    100032: pasted__pCube1 1
+    100034: pasted__pCube2
+    100036: pasted__pCube2 1
+    100038: pasted__pCube3
+    100040: pasted__pCube3 1
+    100042: pasted__pCube4
+    100044: pasted__pCube4 1
+    100046: pasted__pCube5
+    100048: pasted__pCube5 1
+    100050: pasted__pCube6
+    100052: pasted__pCube6 1
+    100054: pasted__pCylinder1
+    100056: pasted__pCylinder1 1
+    100058: pasted__pCylinder2
+    100060: pasted__pCylinder2 1
+    100062: pasted__pPipe1
+    100064: pasted__pPipe1 1
+    100066: pasted__pSphere1
+    100068: pasted__pSphere1 1
+    100070: pasted__pSphere2
+    100072: pasted__pSphere2 1
+    100074: pasted__RightEar
+    100076: pasted__RightEar1
+    100078: pasted__RightEye
+    100080: pasted__RightEye 1
+    100082: pasted__RightEyebrow
+    100084: pasted__RightEyebrow1
+    100086: pasted__RightInnerEar
+    100088: pasted__RightInnerEar1
+    100090: pasted__Spine
+    100092: pasted__Spine 1
+    100094: pasted__Spine1
+    100096: pasted__Tech
+    100098: pasted__Tech1
+    100100: pasted__Teddy
+    100102: pasted__Terminator1
+    100104: pasted__TEyes
+    100106: pasted__tHead
+    100108: pasted__TopTeeth
+    100110: //RootNode
+    400000: pasted__BottomTeeth
+    400002: pasted__Face
+    400004: pasted__group1
+    400006: pasted__Head
+    400008: pasted__Head 1
+    400010: pasted__Head 2
+    400012: pasted__Headpiece
+    400014: pasted__Headpiece2
+    400016: pasted__Headpiece3
+    400018: pasted__LeftEye
+    400020: pasted__LeftEye 1
+    400022: pasted__LeftEyebrow
+    400024: pasted__LeftEyebrow1
+    400026: pasted__Nose
+    400028: pasted__Nose 1
+    400030: pasted__pCube1
+    400032: pasted__pCube1 1
+    400034: pasted__pCube2
+    400036: pasted__pCube2 1
+    400038: pasted__pCube3
+    400040: pasted__pCube3 1
+    400042: pasted__pCube4
+    400044: pasted__pCube4 1
+    400046: pasted__pCube5
+    400048: pasted__pCube5 1
+    400050: pasted__pCube6
+    400052: pasted__pCube6 1
+    400054: pasted__pCylinder1
+    400056: pasted__pCylinder1 1
+    400058: pasted__pCylinder2
+    400060: pasted__pCylinder2 1
+    400062: pasted__pPipe1
+    400064: pasted__pPipe1 1
+    400066: pasted__pSphere1
+    400068: pasted__pSphere1 1
+    400070: pasted__pSphere2
+    400072: pasted__pSphere2 1
+    400074: pasted__RightEar
+    400076: pasted__RightEar1
+    400078: pasted__RightEye
+    400080: pasted__RightEye 1
+    400082: pasted__RightEyebrow
+    400084: pasted__RightEyebrow1
+    400086: pasted__RightInnerEar
+    400088: pasted__RightInnerEar1
+    400090: pasted__Spine
+    400092: pasted__Spine 1
+    400094: pasted__Spine1
+    400096: pasted__Tech
+    400098: pasted__Tech1
+    400100: pasted__Teddy
+    400102: pasted__Terminator1
+    400104: pasted__TEyes
+    400106: pasted__tHead
+    400108: pasted__TopTeeth
+    400110: //RootNode
+    2300000: pasted__Head 1
+    2300002: pasted__Head 2
+    2300004: pasted__Headpiece
+    2300006: pasted__Headpiece2
+    2300008: pasted__Headpiece3
+    2300010: pasted__LeftEye 1
+    2300012: pasted__LeftEyebrow
+    2300014: pasted__LeftEyebrow1
+    2300016: pasted__Nose 1
+    2300018: pasted__pCube1
+    2300020: pasted__pCube1 1
+    2300022: pasted__pCube2
+    2300024: pasted__pCube2 1
+    2300026: pasted__pCube3
+    2300028: pasted__pCube3 1
+    2300030: pasted__pCube4
+    2300032: pasted__pCube4 1
+    2300034: pasted__pCube5
+    2300036: pasted__pCube5 1
+    2300038: pasted__pCube6
+    2300040: pasted__pCube6 1
+    2300042: pasted__pCylinder1
+    2300044: pasted__pCylinder1 1
+    2300046: pasted__pCylinder2
+    2300048: pasted__pCylinder2 1
+    2300050: pasted__pPipe1
+    2300052: pasted__pPipe1 1
+    2300054: pasted__pSphere1
+    2300056: pasted__pSphere1 1
+    2300058: pasted__pSphere2
+    2300060: pasted__pSphere2 1
+    2300062: pasted__RightEar
+    2300064: pasted__RightEar1
+    2300066: pasted__RightEye 1
+    2300068: pasted__RightEyebrow
+    2300070: pasted__RightEyebrow1
+    2300072: pasted__RightInnerEar
+    2300074: pasted__RightInnerEar1
+    2300076: pasted__Spine 1
+    2300078: pasted__Spine1
+    2300080: pasted__tHead
+    3300000: pasted__Head 1
+    3300002: pasted__Head 2
+    3300004: pasted__Headpiece
+    3300006: pasted__Headpiece2
+    3300008: pasted__Headpiece3
+    3300010: pasted__LeftEye 1
+    3300012: pasted__LeftEyebrow
+    3300014: pasted__LeftEyebrow1
+    3300016: pasted__Nose 1
+    3300018: pasted__pCube1
+    3300020: pasted__pCube1 1
+    3300022: pasted__pCube2
+    3300024: pasted__pCube2 1
+    3300026: pasted__pCube3
+    3300028: pasted__pCube3 1
+    3300030: pasted__pCube4
+    3300032: pasted__pCube4 1
+    3300034: pasted__pCube5
+    3300036: pasted__pCube5 1
+    3300038: pasted__pCube6
+    3300040: pasted__pCube6 1
+    3300042: pasted__pCylinder1
+    3300044: pasted__pCylinder1 1
+    3300046: pasted__pCylinder2
+    3300048: pasted__pCylinder2 1
+    3300050: pasted__pPipe1
+    3300052: pasted__pPipe1 1
+    3300054: pasted__pSphere1
+    3300056: pasted__pSphere1 1
+    3300058: pasted__pSphere2
+    3300060: pasted__pSphere2 1
+    3300062: pasted__RightEar
+    3300064: pasted__RightEar1
+    3300066: pasted__RightEye 1
+    3300068: pasted__RightEyebrow
+    3300070: pasted__RightEyebrow1
+    3300072: pasted__RightInnerEar
+    3300074: pasted__RightInnerEar1
+    3300076: pasted__Spine 1
+    3300078: pasted__Spine1
+    3300080: pasted__tHead
+    4300000: pasted__Head
+    4300002: pasted__Head
+    4300004: pasted__Nose
+    4300006: pasted__RightEye
+    4300008: pasted__LeftEye
+    4300010: pasted__LeftEyebrow
+    4300012: pasted__RightEyebrow
+    4300014: pasted__RightEar
+    4300016: pasted__RightInnerEar
+    4300018: pasted__RightEar1
+    4300020: pasted__RightInnerEar1
+    4300022: pasted__tHead
+    4300024: pasted__Headpiece
+    4300026: pasted__pSphere1
+    4300028: pasted__pSphere2
+    4300030: pasted__pSphere1
+    4300032: pasted__pSphere2
+    4300034: pasted__Spine
+    4300036: pasted__Spine1
+    4300038: pasted__pCube1
+    4300040: pasted__pCube2
+    4300042: pasted__pCube3
+    4300044: pasted__pCube4
+    4300046: pasted__pCube5
+    4300048: pasted__pCube6
+    4300050: pasted__pCube1
+    4300052: pasted__pCube2
+    4300054: pasted__pCube3
+    4300056: pasted__pCube4
+    4300058: pasted__pCube5
+    4300060: pasted__pCube6
+    4300062: pasted__Headpiece2
+    4300064: pasted__Headpiece3
+    4300066: pasted__RightEyebrow1
+    4300068: pasted__LeftEyebrow1
+    4300070: pasted__pPipe1
+    4300072: pasted__pCylinder1
+    4300074: pasted__pCylinder2
+    4300076: pasted__pPipe1
+    4300078: pasted__pCylinder1
+    4300080: pasted__pCylinder2
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
