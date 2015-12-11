@@ -6,14 +6,14 @@ public class Tilt : MonoBehaviour {
 	void Start () {
         //check if the gyro is enabled
 #if UNITY_IPHONE
-    if(Input.gyro.enabled){
+    /*if(Input.gyro.enabled){
         enabledGyro = true;
  
         //debug
         ToDebug("Gyro Enabled");
     } else {
         //TODO: show a warning message
-    }
+    }*/
 #endif
 
 #if UNITY_ANDROID
