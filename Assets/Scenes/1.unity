@@ -171,7 +171,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -270,7 +272,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -406,7 +410,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -558,19 +564,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 455536, guid: 0550db9892d595245864091923de92ef, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1.31798565
+      value: 1.89064741
       objectReference: {fileID: 0}
     - target: {fileID: 455536, guid: 0550db9892d595245864091923de92ef, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.14987707
+      value: 1.40294838
       objectReference: {fileID: 0}
     - target: {fileID: 22410656, guid: 0550db9892d595245864091923de92ef, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1.31798565
+      value: 1.89064741
       objectReference: {fileID: 0}
     - target: {fileID: 22410656, guid: 0550db9892d595245864091923de92ef, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.14987707
+      value: 1.40294838
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0550db9892d595245864091923de92ef, type: 2}
@@ -624,7 +630,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -702,7 +710,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -796,7 +806,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -934,11 +946,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 451786, guid: 6721a5e543f5b184984a55d39727f81b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 40.969677
+      value: -43
       objectReference: {fileID: 0}
     - target: {fileID: 451786, guid: 6721a5e543f5b184984a55d39727f81b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -79.2456512
+      value: -110.900002
       objectReference: {fileID: 0}
     - target: {fileID: 451786, guid: 6721a5e543f5b184984a55d39727f81b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -967,6 +979,18 @@ Prefab:
     - target: {fileID: 143604, guid: 6721a5e543f5b184984a55d39727f81b, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 451786, guid: 6721a5e543f5b184984a55d39727f81b, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 18.0487728
+      objectReference: {fileID: 0}
+    - target: {fileID: 451786, guid: 6721a5e543f5b184984a55d39727f81b, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.8434
+      objectReference: {fileID: 0}
+    - target: {fileID: 21274878, guid: 6721a5e543f5b184984a55d39727f81b, type: 2}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6721a5e543f5b184984a55d39727f81b, type: 2}
@@ -1866,7 +1890,9 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -2120,7 +2146,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -2855,7 +2883,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -2929,7 +2959,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -2988,7 +3020,7 @@ Transform:
   - {fileID: 1053517483}
   - {fileID: 736752364}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!4 &1932706804 stripped
 Transform:
   m_PrefabParentObject: {fileID: 493528, guid: cb602d93b44ceef4faafe1c22ca450ba, type: 2}
@@ -3100,7 +3132,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -3326,7 +3360,9 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
